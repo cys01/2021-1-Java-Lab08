@@ -24,7 +24,8 @@ dependencies {
     implementation 'com.google.guava:guava:29.0-jre'
 }
 
-application {
+application {	
     // Define the main class for the application.
-    mainClass = 'edu.handong.csee.java.lab8.App'
+    sourceSets.main.java.srcDirs = ['src']
+    mainClass = 'main.edu.handong.csee.java.hw2.IntegratedConverter'
 }
