@@ -1,9 +1,9 @@
-package edu.handong.csee.java.hw2;
+package main.edu.handong.csee.java.hw2;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 
-import edu.handong.csee.java.hw2.converters.*; // You will learn the import statement in L11.
+import main.edu.handong.csee.java.hw2.converters.*; // You will learn the import statement in L11.
 
 public class IntegratedConverter {
 
@@ -25,7 +25,7 @@ public class IntegratedConverter {
 
         if(!targetMeasure.equals("ALL")) {
 
-            String converterName = "edu.handong.csee.java.hw2.converters." + originalMeasure + "To" + targetMeasure + "Converter";
+            String converterName = "main.edu.handong.csee.java.hw2.converters." + originalMeasure + "To" + targetMeasure + "Converter";
 
             // You will learn about the try-catch block and Exception in L19
             try {

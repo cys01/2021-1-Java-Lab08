@@ -1,4 +1,4 @@
-package edu.handong.csee.java.hw2.converters;
+package main.edu.handong.csee.java.hw2.converters;
 
 /**
  * This Converter class turn mile measure into kilometer.

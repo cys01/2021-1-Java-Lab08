@@ -1,4 +1,4 @@
-package edu.handong.csee.java.hw2;
+package main.edu.handong.csee.java.hw2;
 
 public class Util {
 
